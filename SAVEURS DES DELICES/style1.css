@@ -1,0 +1,142 @@
+
+.backnavigation{
+
+font-size: 40px;
+text-align: center;
+font-family: 'Times New Roman', Times, serif;
+font-style: italic;
+font: weight 500px;
+
+}
+
+.storybox{
+
+ font-size: 20px;
+
+}
+.storybox .highlight{
+font-weight: bold;
+color: rgb(0, 0, 0);
+}
+.imgflottante{
+filter: brightness(25%);
+ }
+
+ body{
+background-color: rgb(255, 255, 255);
+font-family: 'Times New Roman', Times, serif;
+}
+
+#taille{
+    width: 30%;
+    height: 30%;
+      border-radius: 20px;
+    margin: 3px;
+    border:2px solid rgb(119, 8, 8);
+ }
+ .dessert{
+    width: 600px;
+    height: 300px;
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px black;
+}
+#dessert2{
+  height: 250px; width: 300px; 
+}
+.navbar{
+background-color: rgb(152, 62, 212);
+text-align: center;
+padding: 15px 0;
+columns: white;
+
+}
+.navbar ul{list-style-type: none;
+margin: 0;
+padding: 0;
+
+
+}
+.navbar ul li a{
+text-decoration: none;
+color: white;
+font-weight: bold;
+}
+.navbar ul li{
+display:inline;
+margin: 0 20 px;
+}
+.titre{
+font-size: 50px;
+text-align: center;
+font-family: 'Times New Roman', Times, serif;
+font-style: italic; color:  rgb(100, 100, 238);
+font: weight 500px;
+}
+.fond_carte{
+background-color: rgb(152, 62, 212);
+text-align: center;
+padding: 15px 0;
+columns: white; border: 3px solid; border-radius: 15px;
+color: white;
+text-align: justify;
+}
+
+.sous_titre{
+color:white;
+font-size: 20px;
+text-align: left;
+font-family: 'Times New Roman', Times, serif;
+font-style: italic;
+font: weight 50px;
+}
+
+#color_sous_titre{
+color: white;
+}
+
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+
+.section {
+  width: 250px;
+  border: 2px solid #000000;
+  border-radius: 10px;
+  padding: 15px;
+  background-color: rgb(152, 62, 212);
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+}
+
+.section h2 {
+  color: #000000;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+.section ul {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+}
+
+.section li {
+  margin-bottom: 15px;
+  color: #ffffff;
+}
+
+.section span {
+  float: right;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+small {
+  font-size: 12px;
+  color: #ffffff;
+}
+
+
